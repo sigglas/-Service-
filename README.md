@@ -1,2 +1,21 @@
-# -Service-
-ç°¡å–®å‘ˆç¾å¦‚ä½•åœ¨å…©å€‹Serviceæˆ–å…©å€‹Repositoryï¼ŒåŒæ™‚Commitæˆ–Rollback
+# Â²³æ§e²{¦p¦ó¦b¨â­ÓService©Î¨â­ÓRepository¡A¦P®ÉCommit©ÎRollback
+
+- ½Ð¥ý¦ÜProgram.cs¿ï¾Ü§A­n¥Îªº¸ê®Æ®w¡A§Ú¬G·N³£µù¸Ñ°_¨Ó¤F¡C
+
+## ½d¨Ò»¡©ú
+
+### ¨Ò¥~¹Á¸Õ¤è¦¡
+1. ­Y[©m¦W]¥]§tsigg®É¡A·|ª½±µ³Q¤¤Â_¦Ó¤£¶i¤JUnitOfWork
+1. ­Y±ÀÂË¤H¶W¹L¨â½X®É¡A«h·|¦bUnitOfWork¤¤µo¥Í²§±`¡A³QºI¨ú¨ì¶i¦Ó¤ÞµoRollback
+
+¥iÆ[´ú¨âªÌµo¥Í®É¡A¬O§_·|±N¸ê®Æ¼g¤JDB
+
+## ¥\½Ò
+ 1. ­Y­×§ï¸ê®Æ®É¡H½Ð¦Û¦æÂX¥R¹Á¸Õ
+ 2. ­l¥ÍÃD«¬¡A­ì´£°ÝªÌ¨ÃµL»¡¬O§_¦³¦h­Ó¸ê®Æ®w³s½u¡A¨º­Y¦³¦h­Ó®É§A¤S¸Ó¦p¦ó½Õ¾ã¥»±M®×¡H
+ 3. ½ÐÆ[´úUseInMemoryDatabase»PUseSqlServer()ªº®t§O
+
+## ¨ä¥L´£¿ô
+ - ¥¿±`±¡ªp¤U¡A¦b¶}µo®É¤£À³¸Ó±NÅÞ¿è¼g¦ÜController¤U(¨Ò¦punitOfWorkªº°õ¦æ)¡A¦¹¶È¬°½d¨Ò¡A½Ð«Ø¥ß¨ä¥L¼h¦¸¥h³B²zÅÞ¿è¡C
+ - ¦¹¬°½d¨Ò¡A½Ð¹ï¤¤¤å©R¦W«ù¥]®e¤ßºA¡C
+ - ¦pªG§A¨S¦³.NET 7¡A¥i¥H¹Á¸Õ­°¬°6¡AÀ³¸Ó¤j·§©Î³\¥i¯à¤£·|¥X¿ù¡C
